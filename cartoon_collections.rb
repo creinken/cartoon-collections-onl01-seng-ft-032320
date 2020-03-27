@@ -16,13 +16,14 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  answer = ""
-  cheese_types.each do |cheese|
-    if snacks.include?(cheese)
-      answer = cheese
-    else
-      answer = nil
-    end
-  end
+  answer = nil
+  
+  # cheese_types.each do |cheese|
+  #   if snacks.include?(cheese)
+  #     answer = cheese
+  #   else
+  #     answer = nil
+  #   end
+  # end
   return answer
 end
