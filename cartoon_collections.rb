@@ -17,7 +17,7 @@ end
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   answer = cheese_types & snacks
-  if answer != ""
+  if answer != []
     answer
   else
     nil
