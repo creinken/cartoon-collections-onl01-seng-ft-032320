@@ -22,11 +22,4 @@ def find_the_cheese(snacks)
   else
     nil
   end
-  # cheese_types.each do |cheese|
-  #   if snacks.include?(cheese)
-  #     answer = cheese
-  #   else
-  #     answer = nil
-  #   end
-  # end
 end
